@@ -1,0 +1,8 @@
+@tailwind base;
+
+body {
+    @apply min-h-screen overflow-x-hidden;
+}
+
+@tailwind components;
+@tailwind utilities;
