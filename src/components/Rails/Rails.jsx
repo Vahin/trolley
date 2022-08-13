@@ -176,60 +176,62 @@ function Rails() {
     });
 
     return (
-        <section className="px-0 md:px-[30px]  py-0 lg:py-[5vh]" ref={rails}>
-            <div
-                className="pb-[10vh] md:pb-0 h-[110vh] lg:h-[90vh] md:rounded-[20px] pt-[50px] bg-[#0F1214] text-white px-4 overflow-hidden flex flex-col justify-center"
-                ref={trolley}
-            >
-                <h2
-                    className="font-golos font-bold text-3xl md:text-[54px] md:leading-[70px] text-center mb-0 md:mb-10 xl:mb-[40px] opacity-0"
-                    ref={mainHeader}
+        <div className="bg-[#0F1214] md:bg-inherit">
+            <section className="px-0 md:px-[30px]  py-0 lg:py-[5vh]" ref={rails}>
+                <div
+                    className="pb-[10vh] md:pb-0 h-[110vh] lg:h-[90vh] md:rounded-[20px] pt-[calc(5vh + 50px)] bg-[#0F1214] text-white px-4 overflow-hidden flex flex-col justify-center"
+                    ref={trolley}
                 >
-                    Что тебе даст прохождение курса?
-                </h2>
+                    <h2
+                        className="font-golos font-bold text-3xl md:text-[54px] md:leading-[70px] text-center mb-0 md:mb-10 xl:mb-[40px] opacity-0"
+                        ref={mainHeader}
+                    >
+                        Что тебе даст прохождение курса?
+                    </h2>
 
-                <ul className="space-x-[20px] flex mb-20 md:mb-24 lg:mb-28 xl:mb-[158px] ml-[50%] min-w-[100vw]" ref={headerList}>
-                    {data.map((item, i) => {
-                        return (
-                            <li
-                                className="font-golos uppercase font-semibold translate-x-[-50%] text-2xl color-white opacity-0 basis-[300px] shrink-0 text-center"
-                                ref={setItemHeader}
-                                key={i}
-                            >
-                                {item.header}
-                            </li>
-                        );
-                    })}
-                </ul>
+                    <ul className="space-x-[20px] flex mb-20 md:mb-24 lg:mb-28 xl:mb-[158px] ml-[50%] min-w-[100vw]" ref={headerList}>
+                        {data.map((item, i) => {
+                            return (
+                                <li
+                                    className="font-golos uppercase font-semibold translate-x-[-50%] text-2xl color-white opacity-0 basis-[300px] shrink-0 text-center"
+                                    ref={setItemHeader}
+                                    key={i}
+                                >
+                                    {item.header}
+                                </li>
+                            );
+                        })}
+                    </ul>
 
-                <div className="flex">
-                    {data.map((item, i) => {
-                        return (
-                            <div
-                                className="flex flex-col md:flex-row justify-center space-y-4 sm:space-y-8 md:space-x-6 md:space-y-0  lg:space-x-[50px] items-center md:items-start px-6 lg:px-[5vw] basis-full shrink-0"
-                                ref={setPassengers}
-                                key={i}
-                            >
-                                {item.skills.map((skill, j) => {
-                                    return (
-                                        <div
-                                            className="flex flex-col justify-center md:justify-start items-center opacity-0 space-y-2  md:space-y-[30px] flex-1"
-                                            ref={setItemContent}
-                                            key={j}
-                                        >
-                                            <img className="w-8 md:w-[52px] h-8 md:h-[52px]" src={skill.img} alt={skill.alt} aria-hidden="true" />
-                                            <div className="font-golos font-medium text-base lg:text-[22px] lg:leading-[29px] text-center">
-                                                {skill.content}
+                    <div className="flex">
+                        {data.map((item, i) => {
+                            return (
+                                <div
+                                    className="flex flex-col md:flex-row justify-center space-y-4 sm:space-y-8 md:space-x-6 md:space-y-0  lg:space-x-[50px] items-center md:items-start px-6 lg:px-[5vw] basis-full shrink-0"
+                                    ref={setPassengers}
+                                    key={i}
+                                >
+                                    {item.skills.map((skill, j) => {
+                                        return (
+                                            <div
+                                                className="flex flex-col justify-center md:justify-start items-center opacity-0 space-y-2  md:space-y-[30px] flex-1"
+                                                ref={setItemContent}
+                                                key={j}
+                                            >
+                                                <img className="w-8 md:w-[52px] h-8 md:h-[52px]" src={skill.img} alt={skill.alt} aria-hidden="true" />
+                                                <div className="font-golos font-medium text-base lg:text-[22px] lg:leading-[29px] text-center">
+                                                    {skill.content}
+                                                </div>
                                             </div>
-                                        </div>
-                                    );
-                                })}
-                            </div>
-                        );
-                    })}
+                                        );
+                                    })}
+                                </div>
+                            );
+                        })}
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     );
 }
 

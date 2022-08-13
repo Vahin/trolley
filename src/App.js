@@ -3,13 +3,14 @@ import { Rails } from "./components/Rails/Rails";
 
 function App() {
     return (
-        <div className="">
+        <>
             <div className="min-h-screen"></div>
-            <main className="">
+
+            <main>
                 <Rails />
             </main>
             <div className="min-h-screen"></div>
-        </div>
+        </>
     );
 }
 
