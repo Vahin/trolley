@@ -8,6 +8,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import { useState, useRef, useLayoutEffect } from "react";
 
 function Rails() {
+    const imgPlaceholder = icon_2;
     const [data] = useState([
         {
             header: "SKILLS UPGRADE",
@@ -218,7 +219,12 @@ function Rails() {
                                                 ref={setItemContent}
                                                 key={j}
                                             >
-                                                <img className="w-8 md:w-[52px] h-8 md:h-[52px]" src={skill.img} alt={skill.alt} aria-hidden="true" />
+                                                <img
+                                                    className="w-8 md:w-[52px] h-8 md:h-[52px]"
+                                                    src={skill.img ?? imgPlaceholder}
+                                                    alt={skill.alt}
+                                                    aria-hidden="true"
+                                                />
                                                 <div className="font-golos font-medium text-base lg:text-[22px] lg:leading-[29px] text-center">
                                                     {skill.content}
                                                 </div>
