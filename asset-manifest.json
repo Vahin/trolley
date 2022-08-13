@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trolley/static/css/main.68f6a387.css",
-    "main.js": "/trolley/static/js/main.6de1f5be.js",
+    "main.css": "/trolley/static/css/main.215cf5d0.css",
+    "main.js": "/trolley/static/js/main.3f5e3b3f.js",
     "static/js/787.627ef2f5.chunk.js": "/trolley/static/js/787.627ef2f5.chunk.js",
     "static/media/Golostextblack.woff2": "/trolley/static/media/Golostextblack.073cf07b34b7c6be7d92.woff2",
     "static/media/Golostextbold.woff2": "/trolley/static/media/Golostextbold.7aebee04f4f197d7b2f4.woff2",
@@ -14,12 +14,12 @@
     "static/media/item-1.svg": "/trolley/static/media/item-1.de545308173a1fa6ad215ff911cd8bb8.svg",
     "static/media/item-5.svg": "/trolley/static/media/item-5.2772e41710db3e7ce31bf7480d633568.svg",
     "index.html": "/trolley/index.html",
-    "main.68f6a387.css.map": "/trolley/static/css/main.68f6a387.css.map",
-    "main.6de1f5be.js.map": "/trolley/static/js/main.6de1f5be.js.map",
+    "main.215cf5d0.css.map": "/trolley/static/css/main.215cf5d0.css.map",
+    "main.3f5e3b3f.js.map": "/trolley/static/js/main.3f5e3b3f.js.map",
     "787.627ef2f5.chunk.js.map": "/trolley/static/js/787.627ef2f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68f6a387.css",
-    "static/js/main.6de1f5be.js"
+    "static/css/main.215cf5d0.css",
+    "static/js/main.3f5e3b3f.js"
   ]
 }
