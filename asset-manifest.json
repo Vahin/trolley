@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/trolley/static/css/main.cc6585d6.css",
-    "main.js": "/trolley/static/js/main.28b6e82d.js",
+    "main.css": "/trolley/static/css/main.3c215876.css",
+    "main.js": "/trolley/static/js/main.583d0382.js",
     "static/js/787.627ef2f5.chunk.js": "/trolley/static/js/787.627ef2f5.chunk.js",
+    "static/media/hero-table.svg": "/trolley/static/media/hero-table.a42b5401b16f6f00c3efd1fe3053e356.svg",
+    "static/media/StudentsProject.png": "/trolley/static/media/StudentsProject.a21db2c59381fcd5f916.png",
     "static/media/Golostextblack.woff2": "/trolley/static/media/Golostextblack.073cf07b34b7c6be7d92.woff2",
     "static/media/Golostextbold.woff2": "/trolley/static/media/Golostextbold.7aebee04f4f197d7b2f4.woff2",
     "static/media/Golostextdemibold.woff2": "/trolley/static/media/Golostextdemibold.339965ceebef0cae960f.woff2",
     "static/media/Golostextmedium.woff2": "/trolley/static/media/Golostextmedium.7e02ca4296f6398e22f9.woff2",
     "static/media/Golostextregular.woff2": "/trolley/static/media/Golostextregular.79beb6689f814c323459.woff2",
+    "static/media/dots.svg": "/trolley/static/media/dots.9192a8bda6e61a520c82bf0357dcfa0d.svg",
     "static/media/item-4.svg": "/trolley/static/media/item-4.3724ce5c929516c6b96077d7c6549f59.svg",
     "static/media/item-3.svg": "/trolley/static/media/item-3.08b074fc08753fe7dd1efb5fbf873c39.svg",
     "static/media/item-2.svg": "/trolley/static/media/item-2.c14ccafbff9ec09385a23790cc0a4676.svg",
     "static/media/item-1.svg": "/trolley/static/media/item-1.de545308173a1fa6ad215ff911cd8bb8.svg",
-    "static/media/Scroll-down.svg": "/trolley/static/media/Scroll-down.c3280ac24b066df57b00098ada418283.svg",
+    "static/media/question.svg": "/trolley/static/media/question.fa9be2cc4f5ecf6f7f7d.svg",
+    "static/media/command-line.svg": "/trolley/static/media/command-line.0aa2989eb3bf17531bf357f133f46409.svg",
     "static/media/item-5.svg": "/trolley/static/media/item-5.2772e41710db3e7ce31bf7480d633568.svg",
     "index.html": "/trolley/index.html",
-    "main.cc6585d6.css.map": "/trolley/static/css/main.cc6585d6.css.map",
-    "main.28b6e82d.js.map": "/trolley/static/js/main.28b6e82d.js.map",
+    "main.3c215876.css.map": "/trolley/static/css/main.3c215876.css.map",
+    "main.583d0382.js.map": "/trolley/static/js/main.583d0382.js.map",
     "787.627ef2f5.chunk.js.map": "/trolley/static/js/787.627ef2f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc6585d6.css",
-    "static/js/main.28b6e82d.js"
+    "static/css/main.3c215876.css",
+    "static/js/main.583d0382.js"
   ]
 }
