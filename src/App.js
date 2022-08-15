@@ -8,12 +8,10 @@ function App() {
     return (
         <>
             <main className="bg-[url('./img/lines.svg')] bg-repeat-y bg-center bg-[1501px]">
-                <div>
-                    <Hero />
-                    <Indicators />
-                    <Program />
-                    <Rails />
-                </div>
+                <Hero />
+                <Indicators />
+                <Program />
+                <Rails />
             </main>
             <div className="min-h-screen"></div>
         </>
