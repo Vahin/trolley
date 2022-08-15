@@ -9,6 +9,17 @@ module.exports = {
             screens: {
                 xs: "400px",
             },
+            fontSize: {
+                mainheader: [
+                    "54px",
+                    {
+                        lineHeight: "70px",
+                    },
+                ],
+            },
+            colors: {
+                primary2: "#ED7138",
+            },
         },
     },
     plugins: [],
