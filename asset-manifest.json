@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trolley/static/css/main.3c215876.css",
-    "main.js": "/trolley/static/js/main.583d0382.js",
+    "main.css": "/trolley/static/css/main.bcd2d5e4.css",
+    "main.js": "/trolley/static/js/main.fa375eff.js",
     "static/js/787.627ef2f5.chunk.js": "/trolley/static/js/787.627ef2f5.chunk.js",
     "static/media/hero-table.svg": "/trolley/static/media/hero-table.a42b5401b16f6f00c3efd1fe3053e356.svg",
     "static/media/StudentsProject.png": "/trolley/static/media/StudentsProject.a21db2c59381fcd5f916.png",
@@ -19,12 +19,12 @@
     "static/media/command-line.svg": "/trolley/static/media/command-line.0aa2989eb3bf17531bf357f133f46409.svg",
     "static/media/item-5.svg": "/trolley/static/media/item-5.2772e41710db3e7ce31bf7480d633568.svg",
     "index.html": "/trolley/index.html",
-    "main.3c215876.css.map": "/trolley/static/css/main.3c215876.css.map",
-    "main.583d0382.js.map": "/trolley/static/js/main.583d0382.js.map",
+    "main.bcd2d5e4.css.map": "/trolley/static/css/main.bcd2d5e4.css.map",
+    "main.fa375eff.js.map": "/trolley/static/js/main.fa375eff.js.map",
     "787.627ef2f5.chunk.js.map": "/trolley/static/js/787.627ef2f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c215876.css",
-    "static/js/main.583d0382.js"
+    "static/css/main.bcd2d5e4.css",
+    "static/js/main.fa375eff.js"
   ]
 }
