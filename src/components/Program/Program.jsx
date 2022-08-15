@@ -6,7 +6,7 @@ function Program() {
     return (
         <section className="mx-auto max-w-[1440px] flex flex-col mb-[89px]">
             <div className="flex flex-col items-center max-w-[1185px] mx-auto px-[15px]">
-                <h2 className="font-golos  text-3xl md:text-mainheader font-bold text-[#0F1214] mb-[40px] text-center pl-[57px] relative before:hidden lg:before:block before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:w-[26px] before:h-[26px] before:bg-[url('./img/question.svg')]">
+                <h2 className="font-golos text-3xl md:text-mainheader font-bold text-[#0F1214] mb-[40px] text-center lg:pl-[57px] relative before:hidden lg:before:block before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:w-[26px] before:h-[26px] before:bg-[url('./img/question.svg')]">
                     Как именно ты станешь разработчиком
                 </h2>
                 <p className="font-golos text-lg md:text-2xl leading-[34px] tracking-[0.005em] text-center mb-[60px] max-w-[970px] mx-auto">
