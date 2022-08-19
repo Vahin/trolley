@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trolley/static/css/main.592a80cf.css",
-    "main.js": "/trolley/static/js/main.281252fd.js",
+    "main.css": "/trolley/static/css/main.6c411868.css",
+    "main.js": "/trolley/static/js/main.324edb45.js",
     "static/js/787.627ef2f5.chunk.js": "/trolley/static/js/787.627ef2f5.chunk.js",
     "static/media/hero-table.svg": "/trolley/static/media/hero-table.a42b5401b16f6f00c3efd1fe3053e356.svg",
     "static/media/StudentsProject.png": "/trolley/static/media/StudentsProject.a21db2c59381fcd5f916.png",
@@ -20,12 +20,12 @@
     "static/media/item-5.svg": "/trolley/static/media/item-5.2772e41710db3e7ce31bf7480d633568.svg",
     "static/media/lines.svg": "/trolley/static/media/lines.00c681938d6abcc18e34.svg",
     "index.html": "/trolley/index.html",
-    "main.592a80cf.css.map": "/trolley/static/css/main.592a80cf.css.map",
-    "main.281252fd.js.map": "/trolley/static/js/main.281252fd.js.map",
+    "main.6c411868.css.map": "/trolley/static/css/main.6c411868.css.map",
+    "main.324edb45.js.map": "/trolley/static/js/main.324edb45.js.map",
     "787.627ef2f5.chunk.js.map": "/trolley/static/js/787.627ef2f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.592a80cf.css",
-    "static/js/main.281252fd.js"
+    "static/css/main.6c411868.css",
+    "static/js/main.324edb45.js"
   ]
 }
